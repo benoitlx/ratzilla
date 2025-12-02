@@ -11,6 +11,7 @@ keywords = ["tui", "webassembly", "ratatui"]
 categories = ["wasm"]
 include = ["src/**/*", "Cargo.*", "LICENSE", "README.md", "CHANGELOG.md"]
 edition = "2021"
+publish = false
 
 [dependencies]
 web-sys = { version = "0.3.81", features = [
